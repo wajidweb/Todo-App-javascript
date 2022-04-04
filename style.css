@@ -1,0 +1,149 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     user-select: none;
+ }
+ 
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #00B4DB;
+     /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #429ab8, #36d2f5);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #40a5c7, #31c6e7);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(255, 255, 255);
+     margin-top: 30px;
+     border-radius: 10px;
+     margin-bottom: 30px;
+ }
+ 
+ .container-wrapper {
+     padding: 2rem;
+ }
+ 
+ .heading {
+     font-size: 28px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bolder;
+ }
+ 
+ .input-div {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin: 20px 0px;
+ }
+ 
+ .input-div input {
+     font-size: 15px;
+     padding: 7px;
+     border: none;
+     outline: none;
+     border: 1px solid rgb(16, 179, 207);
+ }
+ 
+ .input-div button {
+     background-color: rgb(158, 76, 235);
+     padding: 3px;
+     border: none;
+     color: white;
+     margin-left: 3px;
+     cursor: pointer;
+     width: 40px;
+ }
+ 
+ .input-div button:hover {
+     color: black;
+     background-color: rgb(150, 61, 233);
+ }
+ 
+ ul {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: space-between;
+ }
+ 
+ li {
+     list-style-type: none;
+     margin-bottom: 10px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     background-color: rgb(240, 240, 240);
+ }
+ 
+ li p {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1rem;
+     color: rgb(61, 56, 56);
+     user-select: none;
+     display: flex;
+     flex-wrap: wrap;
+     text-transform: capitalize;
+     margin-right: 10px;
+ }
+ 
+ li button {
+     border: none;
+     background-color: rgb(245, 41, 41);
+     color: white;
+     padding: 6px;
+     cursor: pointer;
+ }
+ 
+ li button:hover {
+     color: rgb(170, 170, 170);
+ }
+ 
+ .deleteall-div {
+     width: 100%;
+     margin-top: 20px;
+ }
+ 
+ .deleteall-div button {
+     width: 100%;
+     padding: 10px;
+     color: white;
+     font-weight: bold;
+     border: none;
+     cursor: pointer;
+     background-color: blueviolet;
+ }
+ 
+ .deleteall-div button:hover {
+     background-color: rgb(134, 15, 247);
+     color: rgb(214, 214, 214);
+ }
+ 
+ #error {
+     color: orange;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 14px;
+     margin-bottom: 20px;
+ }
+ 
+ .img-div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .img-div img {
+     width: 200px;
+     height: 250px;
+ }
